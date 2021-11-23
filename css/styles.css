@@ -7,6 +7,7 @@
 }
 
 /* Typography */
+
 html {
   font-size: 62.5%;
 }
@@ -60,6 +61,7 @@ p {
 }
 
 /* links */
+
 a {
   text-decoration: none;
 }
@@ -85,4 +87,26 @@ a {
   .link-arrow {
     font-size: 1.5rem;
   }
+}
+
+/* badges */
+
+.badge {
+  border-radius: 20px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+}
+
+.badge-small {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+}
+.badge--secondary {
+  background: var(--color-secondary);
 }
