@@ -5,7 +5,9 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "parcel": "^2.3.2"
+    "cssnano": "^5.1.4",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.12"
   },
   "scripts": {
     "start": "parcel index.html",
